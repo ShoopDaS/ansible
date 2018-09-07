@@ -3,5 +3,3 @@
   tasks:
     - name: install nginx
       apt:  name=nginx-full update-cache=yes state=present
-
-  
